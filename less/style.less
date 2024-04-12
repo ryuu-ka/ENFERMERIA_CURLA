@@ -1,9 +1,7 @@
-@primary-bg-color: #a0285e;
-@primary-tx-color: #e1ab4c;
-@secondary-bg-color: #e1ab4c;
-@secondary-tx-color: #a0285e;
-
-@primary-shadow: #e1ab4c;
+@primary-bg-color: #0f3666;
+@primary-tx-color: #fecd01;
+@secondary-bg-color: #012361;
+@secondary-tx-color: #ffffff;
 
 @display_breaks : {
     md: 720px;
@@ -12,10 +10,7 @@
 }
 
 @import "header.less";
-@import "aside.less";
-@import "cards.less";
-@import "footer.less";
-
+@import "footers.less";
 
 * {
     box-sizing: border-box;
@@ -29,11 +24,12 @@ body {
     font-family: Arial, sans-serif;
     padding: 10px;
     margin: 0;
-    color: @secondary-tx-color;
+    color: @primary-tx-color;
     background-color: @secondary-bg-color;
-    background-image: url(../public/img/heropanel.jpg);
-    background-repeat: no-repeat;
-    background-size: cover all;
+
+    h1, h2{
+        color: @secondary-tx-color;
+    }
 }
 
 

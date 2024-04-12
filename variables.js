@@ -1,43 +1,12 @@
 const handlerBarsContext = {
     "/index.html": {
-        rd: [
+        navh: [
             {
-                "imgUrl": "./public/img/instagram.png",
-                "rd": "@ryuu_25_a"
+                "hrf": "",
+                "page": ""
             },
-            {
-                "imgUrl": "./public/img/whatsapp.png",
-                "rd": "93188989"
-            },
-            {
-                "imgUrl": "./public/img/telefono.png",
-                "rd": "93188989"
-            },
-            {
-                "imgUrl": "./public/img/gmail.png",
-                "rd": "esta_orellanaa@unicah.edu"
-            }
+
         ],
-
-        cards: [
-            {
-                "imgUrl": "https://picsum.photos/200/200",
-                "title": "Card",
-            },
-            {
-                "imgUrl": "https://picsum.photos/200/200",
-                "title": "Card",
-            },
-            {
-                "imgUrl": "https://picsum.photos/200/200",
-                "title": "Card ",
-            },
-            {
-                "imgUrl": "https://picsum.photos/200/200",
-                "title": "Card",
-            }
-        ]
-
     }
 }
 
