@@ -1,5 +1,5 @@
 const handlerBarsContext = {
-    "/pgs/faq.html": {
+    "/Enfermeria_CURLA/faq.html": {
         faq: [
             {
                 "pp": "¿Cuál es el plan de estudios de la carrera de Enfermería en CURLA?",
@@ -66,7 +66,7 @@ const handlerBarsContext = {
         
     }, 
 
-    "/pgs/perfilcarrera.html": {
+    "/Enfermeria_CURLA/perfilcarrera.html": {
         af: [
             {
                 "titulo": "Atención integral: ",
