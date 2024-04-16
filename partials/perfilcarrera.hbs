@@ -1,0 +1,86 @@
+<div class="row">
+    <div class="col-3">
+        <div class="list-group position-fixed">
+            <a class="list-group-item list-group-item-action" href="#list-item-1">Introducción</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-2">Actividades Fundamentales</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-3">Tareas Tipicas</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-4">Habilidades y Caracteristicas</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-5">Ambientes de Trabajo</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-6">Aspectos Curriculares</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-7">Plan de Estudio</a>
+        </div>
+    </div>
+    <div class="col-8">
+        <div>
+            <div class="item">
+                <h4 id="list-item-1">Introducción</h4>
+                <p>La Escuela de Enfermería y el Área de Orientación de la Vicerrectoria de Orientación y Asuntos
+                    Estudiantiles (VOAE) ponen a la disposición de la comunidad
+                    universitaria y nacional, el presente Perfil de la Carrera de Enfermería. Este documento contiene
+                    información básica para las(los) interesadas(os), y se
+                    edita con fines de orientación en la misma. La Escuela de Enfermería tiene como propósito, la
+                    formación de Profesionales de Enfermería que responda a las necesidades
+                    de salud de la población en su contexto, congruente a las nuevas metodologías, avances
+                    científico-técnicos y a la situación cambiante del país, sistema de salud y grupos
+                    poblacionales. La(el) egresada(o) de la Carrera de Enfermería es un(a) profesional con capacidad
+                    humana y científico técnica que participa en la identificación,
+                    análisis de las necesidades de la poblaciön y en el fortalecimiento de sus potencialidades, como la
+                    prestación de servicios, a través del diálogo y la negociación
+                    permanente intra y extra sectorial, estimulando el dinamismo de la comunidad en los procesos de toma
+                    de decisiones para conservar la salud. </p>
+            </div>
+            <div class="item">
+                <h4 id="list-item-2">Actividades Fundamentales de la Carrera</h4>
+            <p>La (el) profesional de Enfermería está capacitado para desarrollar las siguientes actividades:</p>
+            <ul>
+                {{#each af}}
+                <li><strong>{{titulo}}</strong>{{descrip}}</li>
+                {{/each}}
+            </ul>
+            </div>
+
+            <div class="item">
+                <h4 id="list-item-3">Tareas Típicas que Realiza el Estudiante de esta Carrera</h4>
+            <ul>
+                {{#each tt}}
+                <li>{{tarea}}</li>
+                {{/each}}
+            </ul>
+            </div>
+
+            <div class="item">
+                <h4 id="list-item-4">Habilidades y Caracteristicas Deseables en la Carrera</h4>
+            <ul>
+                {{#each hc}}
+                <li>{{habil}}</li>
+                {{/each}}
+            </ul>
+            </div>
+
+            <div class="item">
+                <h4 id="list-item-5">Ambientes y Lugares de Trabajo</h4>
+            <p>Un Egresado(a) de esta carrera podrá desempeñarse en:</p>
+            <ul>
+                {{#each al}}
+                <li>{{lugar}}</li>
+                {{/each}}
+            </ul>
+            </div>
+            
+            <div class="item">
+                <h4 id="list-item-6">Aspectos Curriculares</h4>
+            <ul>
+                {{#each ac}}
+                <li><strong>{{titulo}}</strong>{{descrip}}</li>
+                {{/each}}
+            </ul>
+            </div>
+
+            <div class="item">
+                <h4 id="list-item-7">Plan de Estudio</h4>
+                <p>El plan de estudios de la carrera de Enfermería en el CURLA está diseñado para proporcionar una formación integral y actualizada en áreas como anatomía, fisiología, microbiología, farmacología, enfermería comunitaria, cuidados intensivos, entre otros. Se incluyen prácticas clínicas supervisadas para garantizar una formación práctica y realista.</p>
+                <a class="btn btn-outline-warning" href="https://curla.unah.edu.hn/assets/Uploads/Enfermeria.pdf" role="button">Descargar Plan de Estudio</a>
+            </div>
+        </div>
+    </div>
+</div>

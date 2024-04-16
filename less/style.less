@@ -1,7 +1,7 @@
 @primary-bg-color: #0f3666;
 @primary-tx-color: #fecd01;
-@secondary-bg-color: #012361;
-@secondary-tx-color: #ffffff;
+@secondary-bg-color: #26326e;
+@secondary-tx-color: #fcfcfc;
 
 @display_breaks : {
     md: 720px;
@@ -10,7 +10,20 @@
 }
 
 @import "header.less";
+@import "hero.less";
+@import "inicio.less";
+@import "nosotros.less";
+@import "programas.less";
+@import "calendario.less";
+@import "contactos.less";
+@import "card.less";
+@import "galeria.less";
+@import "listgroups.less";
+@import "faq.less";
 @import "footers.less";
+
+
+
 
 * {
     box-sizing: border-box;
@@ -18,36 +31,10 @@
 
 html {
     height: 100%;
+    width: 100%;
 }
 
 body {
     font-family: Arial, sans-serif;
-    padding: 10px;
-    margin: 0;
-    color: @primary-tx-color;
-    background-color: @secondary-bg-color;
-
-    h1, h2{
-        color: @secondary-tx-color;
-    }
-}
-
-
-
-@media (min-width: 600px) {
-    .image {
-        width: 48%;
-    }
-}
-
-@media (min-width: 900px) {
-    .image {
-        width: 31%;
-    }
-}
-
-@media (min-width: 1200px) {
-    .image {
-        width: 23.5%;
-    }
+    background-color: @primary-bg-color;
 }

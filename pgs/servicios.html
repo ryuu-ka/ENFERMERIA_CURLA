@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../img/unah.png">
+    <title>Enfermeria - CURLA </title>
+    <link rel="stylesheet" href="../less/style.less">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    {{> headers}}
+    <div class="servicios">
+        <h1>Servicios de Apoyo Estudiantil</h1>
+        <div class="item">
+            <p><strong>Tutoría Académica: </strong>Ofrecemos de sesiones de tutoría individual o en grupo para
+                ayudar a los estudiantes a comprender mejor el material del curso, mejorar habilidades de
+                estudio y prepararse para exámenes.</p>
+        </div>
+        <div class="item">
+            <p><strong>Asesoramiento Académico y Profesional: </strong>Asesoramiento personalizado para ayudar
+                a los estudiantes a planificar su carrera académica, seleccionar cursos, establecer metas
+                profesionales y abordar cualquier desafío académico o personal que puedan enfrentar.</p>
+        </div>
+        <div class="item">
+            <p><strong>Apoyo Financiero: </strong>Información y asistencia en la búsqueda de becas,
+                subvenciones u otras formas de ayuda financiera disponibles para ayudar a los estudiantes a
+                financiar sus estudios universitarios.</p>
+        </div>
+        <div class="item">
+            <p><strong>Servicios de Salud Estudiantil: </strong>Acceso a servicios de salud en el campus, que
+                pueden incluir atención médica básica, asesoramiento en salud mental, vacunaciones y promoción
+                de la salud.</p>
+        </div>
+        <div class="item">
+            <p><strong>Servicios de Bienestar Estudiantil: </strong>Programas y recursos diseñados para
+                promover el bienestar general de los estudiantes, que pueden incluir actividades deportivas,
+                clubes estudiantiles, eventos de construcción de comunidad y servicios de apoyo emocional.</p>
+        </div>
+        <div class="item">
+            <p><strong>Centro de Carreras: </strong>Orientación profesional, talleres de desarrollo
+                profesional, asistencia en la búsqueda de empleo y oportunidades de pasantías para ayudar a los
+                estudiantes a prepararse para su carrera después de la graduación.</p>
+        </div>
+
+        <div class="forms">
+            <h2>Solicitud de servicio de apoyo</h2>
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre completo">
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" class="form-control" id="email" placeholder="Ingrese su correo electrónico">
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" class="form-control" id="telefono" placeholder="Ingrese su número de teléfono">
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Descripcion</label>
+                    <textarea class="form-control" id="mensaje" rows="3"
+                        placeholder="Escriba aquí su solicitud con detalles que considere relevantes"></textarea>
+                </div>
+                <button type="submit" class="btn btn-outline-warning">Enviar</button>
+            </form>
+        </div>
+    </div>
+    {{> footers}}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
