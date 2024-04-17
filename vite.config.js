@@ -8,7 +8,7 @@ import handlebars from 'vite-plugin-handlebars';
 import handlerBarsContext from './variables.js';
 
 export default defineConfig({
-    base: "/Enfermeria_CURLA/",
+    base: "/ENFERMERIA_CURLA/",
     appType: 'mpa',
     build: {
         rollupOptions: {
